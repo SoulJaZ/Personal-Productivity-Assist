@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1713289022930,
+        "nombre": "Estudiar lógica de programación",
+        "estado": "pendiente",
+        "creada": "2025-04-16T15:37:02.930Z",
+        "iniciada": null,
+        "detenida": null,
+        "duracion_total_segundos": 0,
+        "etiquetas": ["estudio", "programación"]
+    }
+]

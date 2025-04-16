@@ -1,6 +1,13 @@
 console.log("Hola Mundo");
 
     // Importar módulos.
+const agregarTarea = require("./modules/agregarTarea");
+const detenerTarea = require("./modules/detenerTarea");
+const iniciarTarea = require("./modules/iniciarTarea");
+const listarTarea = require("./modules/listarTarea");
+const planearDia = require("./modules/planearDia");
+const sincronizar = require("./modules/sincronizar");
+const tareaCompletada = require("./modules/tareaCompletada");
 const fs = require("fs");
 const path = require("path");
 
@@ -9,7 +16,7 @@ const ARCHIVO_TAREAS_PERSONALES = path.join(__dirname, "tareas_Personales.json")
 
 
 // Manejo de la entrada desde la línea de comandos. 
-const argumentosMétodos = process.env.slice(2);
+const argumentosMétodos = process.argv.slice(2);
 const accion = argumentosMétodos[0];
 const argumento1 = argumentosMétodos[1];
 const argumento2 = argumentosMétodos.slice(2).join(' ');
