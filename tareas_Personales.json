@@ -1,12 +1,28 @@
 [
-    {
-        "id": 1713289022930,
-        "nombre": "Estudiar lógica de programación",
-        "estado": "pendiente",
-        "creada": "2025-04-16T15:37:02.930Z",
-        "iniciada": null,
-        "detenida": null,
-        "duracion_total_segundos": 0,
-        "etiquetas": ["estudio", "programación"]
-    }
+  {
+    "id": 1713289022930,
+    "nombre": "Estudiar lógica de programación",
+    "estado": "pendiente",
+    "creada": "2025-04-16T15:37:02.930Z",
+    "iniciada": null,
+    "detenida": null,
+    "duracion_total_segundos": 0,
+    "etiquetas": [
+      "estudio",
+      "programación"
+    ]
+  },
+  {
+    "id": 1745930481846,
+    "nombre": "Leer 30 minutos",
+    "estado": "pendiente",
+    "creada": "2025-04-29T12:41:21.846Z",
+    "iniciada": null,
+    "detenida": null,
+    "duracion_total_segundos": 0,
+    "etiquetas": [
+      "lectura",
+      "habito"
+    ]
+  }
 ]

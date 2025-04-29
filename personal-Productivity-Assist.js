@@ -12,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Crear ruta del archivo que se consumira para obtener la data de la aplicación.
-const ARCHIVO_TAREAS_PERSONALES = path.join(__dirname, "tareas_Personales.json");
+const ARCHIVO_TAREAS_PERSONALES = path.join(__dirname, "..", "tareas_Personales.json");
 
 
 // Manejo de la entrada desde la línea de comandos. 
@@ -22,7 +22,9 @@ const argumento1 = argumentosMétodos[1];
 const argumento2 = argumentosMétodos.slice(2).join(' ');
 
 if (accion === 'agregar-tarea') {
-    agregarTarea();
+    const nombreTarea = argumento1;
+    const etiquetas = argumentosMétodos.slice(2);
+    agregarTarea(nombreTarea, etiquetas);
 } else if (accion === 'lista-tareas'){
     listarTarea();
 } else if ( accion === 'tarea-completada') {
