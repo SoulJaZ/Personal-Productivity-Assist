@@ -24,5 +24,30 @@
       "lectura",
       "habito"
     ]
+  },
+  {
+    "id": 1747352509325,
+    "nombre": "ir",
+    "estado": "pendiente",
+    "creada": "2025-05-15T23:41:49.325Z",
+    "iniciada": null,
+    "detenida": null,
+    "duracion_total_segundos": 0,
+    "etiquetas": [
+      "a",
+      "jugar"
+    ]
+  },
+  {
+    "id": 1747352553355,
+    "nombre": "ir_a_jugar",
+    "estado": "pendiente",
+    "creada": "2025-05-15T23:42:33.355Z",
+    "iniciada": null,
+    "detenida": null,
+    "duracion_total_segundos": 0,
+    "etiquetas": [
+      "basketball"
+    ]
   }
 ]

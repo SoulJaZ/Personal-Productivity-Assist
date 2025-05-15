@@ -16,9 +16,10 @@ function agregarTarea(nombreTarea = "Task without name", etiquetas = []) {
     if (fs.existsSync(ARCHIVO_TAREAS_PERSONALES)) {
         const data = fs.readFileSync(ARCHIVO_TAREAS_PERSONALES, "utf-8");
         try {
-            tareas = JSON.parse(data);
+            tareas = JSON.parse(data) || [];
         } catch (e) {
-            console.error("⚠ Error al parsear tareas", e.message)
+            console.error("⚠ Error al parsear tareas", e.message);
+            tareas = []; // Asegurarse de que se tenga un array
         }
     }
 
